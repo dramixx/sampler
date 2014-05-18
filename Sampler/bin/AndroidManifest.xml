@@ -16,6 +16,10 @@
         <activity
             android:name="fr.sampler.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="fr.sampler.GridSampler"
+            android:label="@string/title_activity_grid_sampler" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
