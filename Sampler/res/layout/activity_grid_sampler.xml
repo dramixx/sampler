@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue"
     tools:context="${packageName}.${activityClass}" >
 
     <GridLayout
@@ -20,7 +21,8 @@
             android:layout_gravity="left|top"
             android:layout_row="0"
             android:text="Mais oui c'est clair"
-            android:textSize="10sp" />
+            android:textSize="10sp" 
+            android:background="@drawable/custom_button"/>
 
         <Button
             android:id="@+id/button_r1_c2"
@@ -30,7 +32,8 @@
             android:layout_gravity="left|top"
             android:layout_row="0"
             android:text="Eddy Malou"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            android:background="@drawable/custom_button" />
         
         <Button
             android:id="@+id/button_r1_c3"
@@ -39,8 +42,9 @@
             android:layout_column="2"
             android:layout_gravity="left|top"
             android:layout_row="0"
-            android:text="Ferme la"
-            android:textSize="10sp" />
+            android:text="Congolexicomatisation"
+            android:textSize="10sp" 
+            android:background="@drawable/custom_button"/>
         
          <Button
             android:id="@+id/button_r1_c4"
@@ -49,8 +53,9 @@
             android:layout_column="3"
             android:layout_gravity="left|top"
             android:layout_row="0"
-            android:text="Unassigned"
-            android:textSize="10sp" />
+            android:text="Ferme la"
+            android:textSize="10sp" 
+            android:background="@drawable/custom_button"/>
          
           <Button
             android:id="@+id/button_r1_c5"
@@ -59,8 +64,9 @@
             android:layout_column="4"
             android:layout_gravity="left|top"
             android:layout_row="0"
-            android:text="Unassigned"
-            android:textSize="10sp" />
+            android:text="Worst Noise Ever"
+            android:textSize="10sp"
+            android:background="@drawable/custom_button" />
           
           
           <Button
@@ -70,8 +76,19 @@
             android:layout_column="5"
             android:layout_gravity="left|top"
             android:layout_row="0"
-            android:text="Unassigned"
-            android:textSize="10sp" />
+            android:text="Allez ciao"
+            android:textSize="10sp" 
+            android:background="@drawable/custom_button"/>
     </GridLayout>
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/custom_button"
+        android:text="STOP" />
 
 </RelativeLayout>
