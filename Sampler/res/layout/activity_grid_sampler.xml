@@ -8,87 +8,89 @@
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:columnCount="7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:columnCount="5"
         android:orientation="horizontal" >
 
         <Space />
 
         <Button
             android:id="@+id/button_r1_c1"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_column="0"
             android:layout_gravity="left|top"
+            android:layout_margin="3dp"
             android:layout_row="0"
-            android:text="Mais oui c'est clair"
-            android:textSize="10sp" 
-            android:background="@drawable/custom_button"/>
+            android:text="Mais oui c&apos;est clair" />
 
         <Button
             android:id="@+id/button_r1_c2"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_column="1"
             android:layout_gravity="left|top"
+            android:layout_margin="3dp"
             android:layout_row="0"
-            android:text="Eddy Malou"
-            android:textSize="10sp"
-            android:background="@drawable/custom_button" />
-        
+            android:text="Eddy Malou" />
+
         <Button
             android:id="@+id/button_r1_c3"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_column="2"
             android:layout_gravity="left|top"
+            android:layout_margin="3dp"
             android:layout_row="0"
-            android:text="Congolexicomatisation"
-            android:textSize="10sp" 
-            android:background="@drawable/custom_button"/>
-        
-         <Button
+            android:text="Congolexicomatisation" />
+
+        <Button
             android:id="@+id/button_r1_c4"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_column="3"
             android:layout_gravity="left|top"
+            android:layout_margin="3dp"
             android:layout_row="0"
-            android:text="Ferme la"
-            android:textSize="10sp" 
-            android:background="@drawable/custom_button"/>
-         
-          <Button
+            android:text="Ferme la" />
+
+        <Button
             android:id="@+id/button_r1_c5"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_column="4"
             android:layout_gravity="left|top"
+            android:layout_margin="3dp"
             android:layout_row="0"
-            android:text="Worst Noise Ever"
-            android:textSize="10sp"
-            android:background="@drawable/custom_button" />
-          
-          
-          <Button
-            android:id="@+id/button_r1_c6"
+            android:text="Worst Noise Ever" />
+
+        <Button
+            android:id="@+id/button_r2_c1"
+            style="@style/custom_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_column="5"
+            android:layout_column="0"
             android:layout_gravity="left|top"
-            android:layout_row="0"
-            android:text="Allez ciao"
-            android:textSize="10sp" 
-            android:background="@drawable/custom_button"/>
+            android:layout_margin="3dp"
+            android:layout_row="1"
+            android:text="Allez ciao" />
     </GridLayout>
 
-    <Button
+        <Button
         android:id="@+id/button_stop"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="126dp"
-        android:background="@drawable/custom_button"
+        style="@style/custom_button"
         android:text="STOP" />
-
+    
 </RelativeLayout>

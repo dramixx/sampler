@@ -19,7 +19,7 @@ public class GridSampler extends Activity {
 	MediaPlayer mp_r1_c3 ;
 	MediaPlayer mp_r1_c4 ;
 	MediaPlayer mp_r1_c5 ;
-	MediaPlayer mp_r1_c6 ;
+	MediaPlayer mp_r2_c1 ;
 
 	List<MediaPlayer> mps = new ArrayList<MediaPlayer>();
 
@@ -34,7 +34,7 @@ public class GridSampler extends Activity {
 		mp_r1_c3 = MediaPlayer.create(GridSampler.this,R.raw.congolexicomatisation);
 		mp_r1_c4 = MediaPlayer.create(GridSampler.this,R.raw.fermela);
 		mp_r1_c5 = MediaPlayer.create(GridSampler.this,R.raw.worstnoiseever);
-		mp_r1_c6 = MediaPlayer.create(GridSampler.this,R.raw.allezciao);
+		mp_r2_c1 = MediaPlayer.create(GridSampler.this,R.raw.allezciao);
 
 		//Setting up button references
 		Button button_r1_c1 = (Button) findViewById(R.id.button_r1_c1);
@@ -77,12 +77,12 @@ public class GridSampler extends Activity {
 				mps.add(mp_r1_c5);
 			}
 		});
-		Button button_r1_c6 = (Button) findViewById(R.id.button_r1_c6);
-		button_r1_c6.setOnClickListener(new OnClickListener() {
+		Button button_r2_c1 = (Button) findViewById(R.id.button_r2_c1);
+		button_r2_c1.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				mp_r1_c6.start();
-				mps.add(mp_r1_c6);
+				mp_r2_c1.start();
+				mps.add(mp_r2_c1);
 			}
 		});
 
